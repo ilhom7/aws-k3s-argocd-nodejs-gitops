@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-gitops-app",
+  "version": "1.0.0",
+  "description": "Node.js app deployed with Kubernetes and Argo CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
