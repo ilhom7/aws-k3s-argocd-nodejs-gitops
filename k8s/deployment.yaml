@@ -15,12 +15,12 @@ spec:
     spec:
       containers:
         - name: nodejs-app
-          image: ghcr.io/ilhom7/aws-k3s-argocd-nodejs-gitops/nodejs-app:initial
+          image: ghcr.io/ilhom7/aws-k3s-argocd-nodejs-gitops/nodejs-app:9615c70be2a41096a413b8f399f49ae665ea8db7
           ports:
             - containerPort: 3000
           env:
             - name: APP_VERSION
-              value: "1.0.0"
+              value: "9615c70be2a41096a413b8f399f49ae665ea8db7"
           readinessProbe:
             httpGet:
               path: /health
