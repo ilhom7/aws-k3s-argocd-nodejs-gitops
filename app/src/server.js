@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello from Node.js, Kubernetes, Argo CD, and GitHub Actions!",
+    message: "Version 2 deployed by GitHub Actions and Argo CD!",
     version: process.env.APP_VERSION || "1.0.0"
   });
 });
